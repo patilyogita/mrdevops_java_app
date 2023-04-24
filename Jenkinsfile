@@ -19,7 +19,7 @@ pipeline{
             steps{
             gitCheckout(
                 branch: "main",
-                credentialsId: 'new', url: 'https://github.com/patilyogita/mrdevops_java_app.git'
+                 url: 'https://github.com/patilyogita/mrdevops_java_app.git'
             )
             }
         }
